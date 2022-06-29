@@ -1,7 +1,7 @@
 import React from 'react'
-import { Header } from './header/Header'
-import { AddTags } from './addTags/AddTags';
-import { Note } from './note/Note';
+import { Header } from '../header/Header'
+import { AddTags } from '../addTags/AddTags';
+import { Note } from '../note/Note';
 
 export const NoteField = () => {
   return (

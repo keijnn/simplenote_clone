@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react"
 
 export const Note = () => {
   return (
-    <div className='pt-10 pl-24 box-border h-full'>
-      <h1>123</h1>
+    <div className="mt-24 box-border h-full">
+      <textarea className="bg-dark-blue px-24 
+      h-full w-full resize-none 
+      focus:outline-none hover:overflow-visible
+      "/>
     </div>
   )
 }
