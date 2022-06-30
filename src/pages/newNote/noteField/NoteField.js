@@ -5,7 +5,7 @@ import { Note } from '../note/Note';
 
 export const NoteField = () => {
   return (
-    <div className='flex flex-col h-full border-l border-b-blue w-72'>
+    <div className='flex flex-col border-l border-b-blue w-72'>
         <Header />
         <Note />
         <AddTags />
