@@ -1,4 +1,6 @@
+//import modules
 import React from "react"
+
 
 export const Note = () => {
   return (
