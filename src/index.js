@@ -5,8 +5,8 @@ import { Provider } from "react-redux"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 //import components
-import { App } from "app/index"
-import { store } from 'app/store/store'
+import { App } from "app/App"
+import { store } from 'store/store'
 
 //import css
 import "./index.css"
