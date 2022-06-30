@@ -1,4 +1,7 @@
+//import modules
 import React from 'react'
+
+//import components
 import { Header } from '../header/Header'
 import { AddTags } from '../addTags/AddTags';
 import { Note } from '../note/Note';

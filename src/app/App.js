@@ -3,7 +3,7 @@ import { NotesField } from "pages/notes/notesField/NotesField";
 
 export const App = () => {
   return (  
-  <div className="text-white flex justify-between bg-dark-blue w-screen max-h-screen font-mono tracking-wider">
+  <div className="text-white flex justify-between bg-dark-blue w-screen h-screen tracking-wider">
     <NotesField />
     <NoteField />
   </div>
