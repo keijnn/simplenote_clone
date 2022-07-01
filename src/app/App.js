@@ -1,5 +1,5 @@
-import { NoteField } from 'pages/newNote/noteField/NoteField';
-import { NotesField } from "pages/notes/notesField/NotesField";
+import { NoteField } from 'components/newNote/noteField/NoteField';
+import { NotesField } from "components/notes/notesField/NotesField";
 
 export const App = () => {
   return (  

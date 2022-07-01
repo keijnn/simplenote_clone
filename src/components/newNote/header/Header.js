@@ -70,6 +70,11 @@ export const Header = () => {
           {changeToggle}
         </svg>
       </p>
+      <input
+        placeholder="Title"
+        className="bg-inherit border-black text-center text-stone-300 font-bold"
+        maxlength="20"
+      />
       <div className="flex w-40 justify-between items-center">
         <p
           className="cursor-pointer"
