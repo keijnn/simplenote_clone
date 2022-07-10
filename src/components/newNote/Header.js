@@ -1,6 +1,9 @@
 //import modules
 import React, { useEffect, useState } from "react"
 
+//import components
+import { addTitle } from "models/notes"
+
 //import css
 import "./Header.css"
 
@@ -64,7 +67,6 @@ export const Header = () => {
           className="fill-svg"
           onClick={() => {
             setToggleStatus(!toggleStatus)
-            console.log(toggleStatus)
           }}
         >
           {changeToggle}
@@ -74,6 +76,12 @@ export const Header = () => {
         placeholder="Title"
         className="bg-inherit border-black text-center text-stone-300 font-bold"
         maxlength="20"
+        onChange={(event) =>  addTitle(
+          {
+            id: Math.random(),
+            title: event.target.value
+          }
+        )}
       />
       <div className="flex w-40 justify-between items-center">
         <p

@@ -2,9 +2,9 @@
 import React from 'react'
 
 //import components
-import { Header } from '../header/Header'
-import { NotesList } from '../notesList/NotesList'
-import { Search } from '../search/Search'
+import { Header } from './Header'
+import { NotesList } from './NotesList'
+import { Search } from './Search'
 
 
 export const NotesField = () => {
